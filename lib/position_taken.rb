@@ -9,5 +9,7 @@ def position_taken?(board,index)
     return false
     elsif index != "X" or "O"
     return false 
+    elsif index != "X" or "O"
+    return true 
 end
 end
