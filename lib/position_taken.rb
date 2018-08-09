@@ -5,5 +5,5 @@
 
 
 def position_taken?(board,index)
- if index == " "  || index == ""
+  index == " "  || index == ""
 end
