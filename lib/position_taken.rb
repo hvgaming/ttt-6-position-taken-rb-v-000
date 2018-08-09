@@ -4,9 +4,8 @@
 
 
 
-
-   return false 
-   elsif board[index] == ""
+def position_taken?(board,index)
+ if board[index] == " "  && board[index] == ""
    return false 
     elsif index == " " && ""
    return nil
